@@ -1,0 +1,50 @@
+{
+  "ConfigVersion": 5,
+  "IsSaberScaleModEnabled": false,
+  "SaberScaleHitbox": false,
+  "SaberLength": 100,
+  "SaberGirth": 100,
+  "IsTrailModEnabled": false,
+  "IsTrailEnabled": true,
+  "TrailDuration": 400,
+  "TrailGranularity": 60,
+  "TrailWhiteSectionDuration": 100,
+  "IsGripModEnabled": true,
+  "GripLeftPosition": {
+    "x": -37,
+    "y": 49,
+    "z": 85
+  },
+  "GripRightPosition": {
+    "x": 37,
+    "y": 49,
+    "z": 85
+  },
+  "GripLeftRotation": {
+    "x": -43,
+    "y": 0,
+    "z": 70
+  },
+  "GripRightRotation": {
+    "x": -41,
+    "y": 0,
+    "z": -70
+  },
+  "GripLeftOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "GripRightOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "ModifyMenuHiltGrip": true,
+  "UseBaseGameAdjustmentMode": false,
+  "SaberPosIncrement": 2,
+  "SaberPosIncValue": 2,
+  "SaberRotIncrement": 1,
+  "SaberPosIncUnit": "mm",
+  "SaberPosDisplayUnit": "cm"
+}
