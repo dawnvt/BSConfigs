@@ -26,14 +26,34 @@
       "CurveRadius": 0.0,
       "DistanceModifier": 1.0
     },
-    "OtherCanvasSettings": []
+    "OtherCanvasSettings": [
+      {
+        "Name": "behind",
+        "ParentedToBaseGameHUD": true,
+        "IgnoreNoTextAndHUDOption": false,
+        "Size": 10.0,
+        "PositionScale": 10.0,
+        "Pos_X": 0.0,
+        "Pos_Y": 2.0,
+        "Pos_Z": -7.0,
+        "MatchBaseGameHUDDepth": false,
+        "Rot_X": 180.0,
+        "Rot_Y": 0.0,
+        "Rot_Z": 180.0,
+        "AttachHUDToCamera": false,
+        "AttachedCamera": "Main Camera",
+        "IgnoreShockwaveEffect": true,
+        "CurveRadius": 0.0,
+        "DistanceModifier": 1.0
+      }
+    ]
   },
   "MissedConfig": {
     "Enabled": true,
-    "Position": "BelowCombo",
+    "Position": "AboveHighway",
     "Distance": 0,
     "CountBadCuts": true,
-    "CanvasID": -1
+    "CanvasID": 0
   },
   "NoteConfig": {
     "Enabled": false,
@@ -47,14 +67,14 @@
     "Enabled": true,
     "Position": "BelowEnergy",
     "Distance": 0,
-    "Mode": "Original",
+    "Mode": "BaseGame",
     "ProgressTimeLeft": false,
     "IncludeRing": false,
     "CanvasID": -1
   },
   "ScoreConfig": {
     "Enabled": true,
-    "Position": "BelowMultiplier",
+    "Position": "BelowCombo",
     "Distance": 0,
     "Mode": "Original",
     "DecimalPrecision": 2,
@@ -70,7 +90,7 @@
     "CanvasID": -1
   },
   "PBConfig": {
-    "Enabled": true,
+    "Enabled": false,
     "Position": "BelowMultiplier",
     "Distance": 1,
     "Mode": "Absolute",
@@ -91,13 +111,13 @@
     "CanvasID": -1
   },
   "CutConfig": {
-    "Enabled": false,
+    "Enabled": true,
     "Position": "AboveHighway",
-    "Distance": 1,
-    "SeparateSaberCounts": false,
-    "SeparateCutValues": false,
-    "AveragePrecision": 1,
-    "CanvasID": -1
+    "Distance": -1,
+    "SeparateSaberCounts": true,
+    "SeparateCutValues": true,
+    "AveragePrecision": 2,
+    "CanvasID": 0
   },
   "SpinometerConfig": {
     "Enabled": false,
